@@ -1,0 +1,31 @@
+{
+  "name": "mail",
+  "version": "0.0.1",
+  "description": "Mail service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArchersDeLaBretagneRomantique/mail.git"
+  },
+  "author": "Benoit TRAVERS <benoit.travers.fr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArchersDeLaBretagneRomantique/mail/issues"
+  },
+  "homepage": "https://github.com/ArchersDeLaBretagneRomantique/mail#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "config": "^1.24.0",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb-base": "^10.0.1"
+  }
+}

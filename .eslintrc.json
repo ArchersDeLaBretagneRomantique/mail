@@ -1,0 +1,11 @@
+{
+  "extends": "eslint-config-airbnb-base",
+  "rules": {
+    "semi": [2, "never"],
+    "arrow-body-style": 0,
+    "func-names": 0
+  },
+  "env": {
+    "node": true
+  }
+}
