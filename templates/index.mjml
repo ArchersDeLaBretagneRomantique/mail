@@ -1,0 +1,13 @@
+<mjml>
+  <mj-body>
+    <mj-container>
+      <mj-section>
+        <mj-column>
+          <mj-text>Les Archers de la Bretagne Romantique</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-include path="./templates/{{type}}" />
+    </mj-container>
+    <mj-container>
+  </mj-body>
+</mjml>

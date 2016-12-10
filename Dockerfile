@@ -10,6 +10,10 @@ WORKDIR /usr/src/app
 COPY package.json /usr/src/app
 RUN npm i
 
+COPY scripts /usr/src/app/scripts
+COPY templates /usr/src/app/templates
+RUN npm run build
+
 COPY index.js /usr/src/app
 COPY src /usr/src/app/src
 COPY config /usr/src/app/config

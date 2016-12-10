@@ -1,0 +1,19 @@
+<mj-section>
+  <mj-column>
+    <mj-text>
+      <p>Bonjour</p>
+
+      <p>Bienvenue sur le site des Archers de la Bretagne romantique.</p>
+
+      <p>Afin de valider votre demande d'inscription, merci de bien vouloir cliquer sur le lien :</p>
+
+      <div style="text-align:center;">
+        <a href="{{link}}">Valider mon adresse email</a>
+      </div>
+
+      <p>Cordialement</p>
+
+      <p>Les Archers de la Bretagne Romantique</p>
+    </mj-text>
+  </mj-column>
+</mj-section>
